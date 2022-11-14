@@ -29,7 +29,7 @@ OBJS	:= ${SRCS:.c=.o}
 
 HEADERS :=	./includes/solong.h \
 			./includes/math_utils.h
-NAME	:= solong
+NAME	:= so_long
 
 B_SRCS_DIR	:= bonus/
 B_SRCS		:= solong_bonus.c \
@@ -53,7 +53,7 @@ B_OBJS	:= ${B_SRCS:.c=.o}
 B_INCLDIR	:=	-I ./bonus/includes
 B_HEADERS	:=	./bonus/includes/solong_bonus.h \
 				./bonus/includes/math_utils_bonus.h
-B_NAME	:=	solong_bonus
+B_NAME	:=	so_long_bonus
 
 LIBFT		:= ./libft/libft.a
 MINILIBX 	:= ./minilibx-linux/libmlx.a
